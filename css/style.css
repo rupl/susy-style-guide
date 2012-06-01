@@ -1,0 +1,56 @@
+/* line 26, ../sass/partials/global/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../sass/partials/style_guide/fonts/_families.scss */
+body {
+  font-family: 'Helvetica Neue' Helvetica Arial sans-serif;
+}
+
+/* line 5, ../sass/partials/style_guide/fonts/_families.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia 'Times New Roma' serif;
+}
+
+/* line 9, ../sass/partials/style_guide/fonts/_families.scss */
+pre {
+  font-family: 'Courier New' monospace;
+}
+
+/* line 1, ../sass/partials/style_guide/lists/_inline.scss */
+ul.inline li {
+  display: inline-block;
+}
+
+/* line 1, ../sass/partials/layout/lists/_people-list.scss */
+.people-list {
+  width: 15.254%;
+  float: left;
+  margin-right: 1.695%;
+  display: inline;
+}
+/* line 4, ../sass/partials/layout/lists/_people-list.scss */
+.people-list:nth-child(2n+1) {
+  float: left;
+  clear: both;
+}
+/* line 9, ../sass/partials/layout/lists/_people-list.scss */
+.people-list:nth-child(2n) {
+  float: right;
+}
+
+/* line 1, ../sass/partials/layout/primary_sidebar/_general.scss */
+#primary-sidebar {
+  width: 32.203%;
+  float: left;
+  margin-right: 1.695%;
+  display: inline;
+}
+
+/* line 1, ../sass/partials/design/header/_general.scss */
+#header {
+  background-color: #50afe8;
+}
