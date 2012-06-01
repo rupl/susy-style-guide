@@ -1,0 +1,10 @@
+////////////////////////
+// Import Lists
+////////////////////////
+@import 'lists/ie.people-list';
+
+////////////////////////
+// Import Primary Sidebar
+// We can either not serve the regular CSS to IE, in which case we'd include this, or we can serve the IE specific styles to override the modern stuff, in which case we wouldn't include this.
+////////////////////////
+@import 'primary_sidebar/general';

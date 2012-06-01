@@ -1,0 +1,12 @@
+.people-list {
+  @include span-columns(2);
+  
+  &:nth-child(2n+1) {
+    float: left;
+    clear: both;
+  }
+  
+  &:nth-child(2n) {
+    float: right;
+  }
+}
