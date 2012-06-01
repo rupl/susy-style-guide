@@ -4,3 +4,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* line 1, ../sass/partials/design/header/_print.general.scss */
+#header {
+  background: transparent;
+}
