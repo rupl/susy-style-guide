@@ -1,0 +1,33 @@
+////////////////////////
+// General Style Guide
+////////////////////////
+
+////////////////////////
+// Import Font Styles
+////////////////////////
+@import 'fonts/weights';
+@import 'fonts/families';
+
+////////////////////////
+// Lists
+////////////////////////
+@import 'lists/inline';
+
+////////////////////////
+// Style Guide
+////////////////////////
+body {
+  @extend %sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend %serif;
+}
+
+pre {
+  @extend %monospace;
+}
+
+.inline {
+  @extend %inline-list;
+}
